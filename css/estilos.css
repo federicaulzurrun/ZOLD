@@ -1,0 +1,353 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&display=swap");
+* {
+  margin: 0px;
+  padding: 0%;
+  box-sizing: border-box;
+  height: auto;
+  width: auto;
+}
+
+html {
+  scroll-behavior: smooth;
+  background-color: #fff0f5;
+  height: auto;
+  width: auto;
+}
+
+body {
+  background-color: #fff0f5;
+}
+
+header {
+  min-width: 320px;
+  width: 100%;
+  height: 120px;
+  background-color: #fff0f5;
+  display: grid;
+}
+header .nav-1 {
+  min-width: 320px;
+  width: 100%;
+  height: 30px;
+  border: none;
+  margin-right: 20px;
+  text-align: right;
+  font-family: "Nunito Sans", sans-serif;
+}
+header .nav-1 :hover {
+  color: #ffb6b9;
+}
+header .nav-1 li {
+  text-transform: capitalize;
+  display: inline-block;
+  border-spacing: 15px;
+  text-align: center;
+}
+header .nav-1 li a {
+  color: #000;
+  font-size: 15px;
+  text-decoration: none;
+  margin: 5px;
+  border-left: 5px;
+}
+header .logo {
+  height: 80px;
+  color: #000;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: bold;
+  font-size: 60px;
+  letter-spacing: 25px;
+  text-align: left;
+  text-transform: uppercase;
+  margin-left: 1px;
+  display: inline-block;
+  padding-left: 20px;
+  transform: translateY(-10px);
+}
+header .logo :hover {
+  color: #ffb6b9;
+}
+header .nav-2 {
+  height: auto;
+  width: 100%;
+  border: none;
+  margin-right: 20px;
+  text-align: center;
+  display: inline-block;
+  font-family: "Nunito Sans", sans-serif;
+  transform: translateY(-15px);
+}
+header .nav-2 :hover {
+  color: #ffb6b9;
+}
+header .nav-2 li {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  display: inline-block;
+  border-spacing: 15px;
+  text-align: center;
+}
+header .nav-2 li a {
+  color: #000;
+  text-decoration: none;
+  font-size: 17px;
+  margin: 5px;
+  border-left: 5px;
+}
+
+.main, .tabladetalles {
+  min-width: 320px;
+  width: 100%;
+  height: auto;
+  max-height: 600px;
+}
+.main .empresa, .tabladetalles .empresa {
+  min-width: 320px;
+  width: 100%;
+  height: 20px;
+  background-color: #000;
+  font-family: "Nunito Sans", sans-serif;
+}
+.main .empresa p, .tabladetalles .empresa p {
+  color: #fff0f5;
+  text-align: center;
+}
+.main .rowmain, .tabladetalles .rowmain {
+  min-width: 320px;
+  width: 100%;
+  height: auto;
+  max-height: 600px;
+}
+.main .rowmain .carousel-inner img, .tabladetalles .rowmain .carousel-inner img {
+  max-height: 320px;
+  min-width: 320px;
+  width: 100%;
+  text-align: center;
+}
+
+aside {
+  min-width: 300px;
+  width: 100%;
+  height: auto;
+  font-family: "Nunito Sans", sans-serif;
+  text-align: justify;
+  background-color: #fff0f5;
+  margin-top: 10px;
+}
+aside p {
+  padding: 10px;
+}
+
+.caja {
+  min-height: 700px;
+  height: auto;
+  min-width: 320px;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 50% 50%;
+  grid-row-gap: 50px;
+  grid-column-gap: 10px;
+  justify-content: space-evenly;
+  padding: 5px;
+  padding-bottom: 100px;
+}
+.caja a {
+  text-decoration: none;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  display: grid;
+  text-align: center;
+  min-width: 100px;
+  font-size: 20px;
+  color: #000;
+}
+.caja :hover {
+  color: #ffb6b9;
+}
+.caja img {
+  min-width: 120px;
+  width: 100%;
+  height: 100%;
+  min-height: 120px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  margin-left: 5px;
+}
+
+.tabladetalles {
+  font-family: "Nunito Sans", sans-serif;
+  min-width: 320px;
+  width: 100%;
+  height: auto;
+}
+.tabladetalles h2 {
+  text-transform: uppercase;
+  font-size: 40px;
+}
+.tabladetalles h3 {
+  text-transform: capitalize;
+  font-size: 25px;
+}
+.tabladetalles .table {
+  min-width: 320px;
+  width: 100%;
+  height: auto;
+  margin-right: 10px;
+}
+.tabladetalles .table th {
+  text-transform: uppercase;
+}
+.tabladetalles .table .zona {
+  text-transform: capitalize;
+}
+
+.tituloswim {
+  font-family: "Nunito Sans", sans-serif;
+  text-transform: uppercase;
+  margin: 10px;
+}
+
+.galeriasw {
+  min-width: 320px;
+  width: 100%;
+  height: auto;
+  font-family: "Nunito Sans", sans-serif;
+  text-transform: uppercase;
+}
+.galeriasw .fotoprodu {
+  align-items: center;
+  margin-left: 10px;
+  margin-right: 10px;
+  row-gap: 20px;
+  -moz-column-gap: 10px;
+       column-gap: 10px;
+}
+
+.mainregistrarse {
+  min-width: 320px;
+  width: 100%;
+  height: auto;
+  font-family: "Nunito Sans", sans-serif;
+  margin: 10px;
+}
+.mainregistrarse h2 {
+  font-size: 30px;
+  text-transform: uppercase;
+}
+.mainregistrarse h3 {
+  font-size: 25px;
+}
+
+.comunidad {
+  min-width: 320px;
+  width: 100%;
+  height: auto;
+  font-family: "Nunito Sans", sans-serif;
+  background: linear-gradient(180deg, #ffb6b9, #ffadb1);
+}
+.comunidad form {
+  padding: 50px;
+  font-size: 20px;
+  text-transform: capitalize;
+}
+.comunidad form .form-check {
+  display: grid;
+  grid-template-rows: repeat(25px);
+}
+.comunidad form .form-check p {
+  transform: translate(-40px, 0);
+}
+.comunidad form .minus {
+  text-transform: none;
+}
+.comunidad form .newslet {
+  display: grid;
+  grid-template-columns: 50px, 50px;
+}
+.comunidad form button {
+  margin-top: 10px;
+}
+
+.ingresar {
+  min-width: 320px;
+  width: 100%;
+  height: auto;
+  font-family: "Nunito Sans", sans-serif;
+  background: linear-gradient(180deg, #ffb6b9, #ffadb1);
+  padding: 5px;
+}
+.ingresar .bienve {
+  font-size: 40px;
+  text-transform: uppercase;
+  padding: 5px;
+}
+.ingresar form {
+  margin: 50px;
+  font-size: 20px;
+  text-transform: capitalize;
+}
+
+footer {
+  min-width: 320px;
+  width: 100%;
+  height: auto;
+  background-color: #c4e9e4;
+  display: inline-block;
+  font-family: "Nunito Sans", sans-serif;
+}
+footer .redes {
+  size: 60px;
+  margin-top: 10px;
+  font-family: "Nunito Sans", sans-serif;
+  color: #000;
+  background-color: #c4e9e4;
+  padding-left: 15px;
+}
+footer .redes a {
+  text-decoration: none;
+  color: #000;
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  margin: 5px;
+  size: 100px;
+  background-color: #c4e9e4;
+}
+footer .redes i {
+  size: 80px;
+  margin-top: 5px;
+  background-color: #c4e9e4;
+}
+footer .redes p {
+  margin: 0;
+  font-size: 15px;
+  margin-left: 10px;
+  background-color: #c4e9e4;
+}
+footer .copy {
+  text-align: left;
+  color: #000;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: small;
+  margin-left: 20px;
+  background-color: #c4e9e4;
+}
+
+.subir {
+  height: 40px;
+  width: 40px;
+  background-color: #9ed2e4;
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  text-align: center;
+  line-height: 40px;
+  font-size: 25px;
+  border-radius: 50%;
+  box-shadow: 0 0 10px #ffb6b9;
+}
+.subir i {
+  color: #000;
+  background-color: #9ed2e4;
+}/*# sourceMappingURL=estilos.css.map */

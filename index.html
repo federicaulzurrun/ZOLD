@@ -8,45 +8,38 @@
     <title>Zöld | Inicio</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="icon" type="image/x-icon" href="assets/imagenes/Logo Zöld.png">
+    <link rel="icon" type="image/x-icon" href="assets/imagenes/LogoZold.png">
     <link rel="stylesheet" href="css/estilos.css">
 </head>
 <body>
 <!-- inicio contenedor padre  -->
     <div class="container-fluid">
     <header class="rowFlex conteiner-fluid">
+        <div class="nav-1">
+            <ul>
+                <li><a href="pages/micuenta.html">mi cuenta</a></li>
+                <li><a href="pages/comunidadzold.html">registrate</a></li>
+            </ul>
+        </div>
         <div class="logo">
             <a class="navbar-brand  logo" href="index.html">zöld</a>
         </div>
         <div class="nav-menu ">
-            <nav class=" header navbar navbar-expand-md bg-dark navbar-dark">
-                <!-- Toggler/collapsibe Button -->
-                <button class="navbar-toggler navbar" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <!-- Navbar links -->
-                <div class="collapse navbar-collapse" id="collapsibleNavbar">
-                    <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link" href="pages/productos.html">productos</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="pages/talles.html">tabla de talles</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="pages/micuenta.html">iniciar sesión</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="pages/comunidadzold.html">registrate</a>
-                    </li>
-                    </ul>
-                </div>  
+            <nav class="nav-2">
+                <ul>
+                    <li><a href="pages/productos.html">productos</a></li>
+                    <li><a href="pages/talles.html">tabla de talles</a></li>
+                </ul>
             </nav>
         </div>
     </header>
-        <main class="main container-fluid">
-            <div class="rowmain conteiner-fluid">
-                <div id="demo" class="carousel slide  col-12 col-sm-12 col-md-7 col-lg-8 col-xl-7" data-ride="carousel">
+        <main class="main ">
+            <div class="empresa">
+                <p class="descripcion-v">Envios a todo el país!Envios gratis a partir de los $15.000.
+                </p>
+            </div>
+            <div class="rowmain carrousel">
+                <div id="demo" class="carousel slide" data-ride="carousel">
                     <!-- Indicators -->
                     <ul class="carousel-indicators">
                     <li data-target="#demo" data-slide-to="0" class="active"></li>
@@ -56,13 +49,13 @@
                     <!-- The slideshow -->
                     <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img src="assets/imagenes/background.jpg" alt="Los Angeles" width="1100" height="500">
+                        <img src="assets/imagenes/carrousel1.jpg" alt="carrousel1" width="800" height="533">
                     </div>
                     <div class="carousel-item">
-                        <img src="assets/imagenes/accesorio.jpg" alt="Chicago" width="1100" height="500">
+                        <img src="assets/imagenes/carrousel2.jpg" alt="carrousel2" width="800" height="533">
                     </div>
                     <div class="carousel-item">
-                        <img src="assets/imagenes/biker.jpg" alt="New York" width="1100" height="500">
+                        <img src="assets/imagenes/background.jpg" alt="background" width="800" height="533">
                     </div>
                     </div>
                     <!-- Left and right controls -->
@@ -73,30 +66,31 @@
                     <span class="carousel-control-next-icon"></span>
                     </a>
                 </div> 
-                <div class="descripcion-p col-12 col-sm-12 col-md-5 col-lg-4 col-xl-5">
-                    <h2 class="sub-2"> ¿por qué elegir nuestros productos?</h2>
-                    <p class="descripcion-v">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam cumque corrupti ullam beatae excepturi, doloremque quibusdam, odit, ipsam veniam laboriosam alias natus! Quas repudiandae tempora est quibusdam exercitationem repellat consequatur?
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dignissimos ea deserunt accusamus fuga doloribus voluptatem excepturi et rerum laudantium. Officia incidunt architecto dolore tenetur iure quae laborum ex fugiat consectetur.
-                    </p>
-                </div>
-            </div>  
+            </div>    
         </main>    
+        <aside class="descempre">
+            <h2>¿Qué es Zöld?</h2>
+                <p class="descempre">Somos un emprendimiento Mendocino que surgio a raiz del amor por el kitesurf y la busqueda de la comodidad al momento de realizar este deporte que tanto nos gusta hacer.
+                Los productos de Zöld estan hecho de lycra a un 100%,contando con la certificación de la marca registrada!
+                Todo para que vos te sientas más comoda y protejida al momento de realizar actividad física o simplemente disfrutar un dia de verano en el agua!
+                </p>
+        </aside>
         <section class="caja">
             <div class="caja1 xs-col-3">
-                <h2 class="nom uno">Tops</h2>
-                <img class="img-fluid" src="assets/imagenes/waikiki.jpg" alt="Chania" min-width="100" min-height="100"> 
+                <h2 class="nom uno"><a href="pages/productos.html"> Tops</a></h2>
+                <img class="img-fluid" src="assets/imagenes/tinicio.jpg" alt="Chania" min-width="100" min-height="100"> 
             </div>
             <div class="caja2 xs-col-3">
-                <h2 class="nom dos">Bikers</h2>
-                <img class="img-fluid" src="assets/imagenes/biker.jpg" alt="Chania" min-width="100" min-height="100"> 
+                <h2 class="nom dos"><a href="pages/productos.html">Bikers</a></h2>
+                <img class="img-fluid" src="assets/imagenes/binicio.jpg" alt="Chania" min-width="100" min-height="100"> 
             </div>
             <div class="caja3 xs-col-3">
-                <h2 class="nom tres">Bikinis</h2>
-                <img class="img-fluid" src="assets/imagenes/bikini palm.jpg" alt="Chania" min-width="100" min-height="100"> 
+                <h2 class="nom tres"><a href="pages/productos.html">Bikinis</a></h2>
+                <img class="img-fluid" src="assets/imagenes/biknicio.jpg" alt="Chania" min-width="100" min-height="100"> 
             </div> 
             <div class="caja4 xs-col-3">
-                <h2 class="nom cuatro">Bodys</h2>
-                <img class="img-fluid" src="assets/imagenes/body.jpg" alt="Chania" min-width="100" min-height="100"> 
+                <h2 class="nom cuatro"><a href="pages/productos.html">Bodys</a></h2>
+                <img class="img-fluid" src="assets/imagenes/bonicio.jpg" alt="Chania" min-width="100" min-height="100"> 
             </div>   
         </section>
         <footer class="conteiner-fluid">

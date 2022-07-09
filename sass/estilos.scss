@@ -1,0 +1,321 @@
+@import "_base.scss";
+
+@mixin sizes ($minwidth, $width, $height ) {
+    min-width: $minwidth;
+    width: $width;
+    height: $height;
+}
+body{
+    background-color: $color2;
+}
+header{
+    @include sizes(320px, 100%, 120px);
+    background-color:$color2;
+    display: grid;
+
+    .nav-1{
+        @include sizes(320px ,100% , 30px);
+        border: none;
+        margin-right: 20px;
+        text-align: right;
+        font-family: $font1; 
+        :hover{
+            color: $color1}
+
+        li{
+            text-transform:capitalize; 
+            display: inline-block; 
+            border-spacing: 15px; 
+            text-align: center;
+
+            a{
+                color: #000; 
+                font-size: 15px;
+                text-decoration: none; 
+                margin: 5px; 
+                border-left: 5px;
+            }
+        }
+    }
+
+    .logo{
+        height: 80px;
+        color:$color5;
+        font-family: $font1;
+        font-weight: bold;
+        font-size: 60px;
+        letter-spacing: 25px; 
+        text-align: left; 
+        text-transform: 
+        uppercase; 
+        margin-left: 1px;
+        display: inline-block;
+        padding-left: 20px;
+        transform: translateY(-10px);
+        
+        :hover{
+            color: $color1}    
+    }
+
+    .nav-2{
+        height:auto;
+        width: 100%;
+        border: none;
+        margin-right: 20px;
+        text-align: center;
+        display: inline-block;
+        font-family: $font1 ;  
+        transform: translateY(-15px);
+
+        :hover{
+            color: $color1;
+        }
+        li{
+            text-transform: uppercase; 
+            letter-spacing: 1px; 
+            display: inline-block; 
+            border-spacing: 15px; 
+            text-align: center;
+
+            a{ 
+                color: #000; 
+                text-decoration: none;
+                font-size: 17px; 
+                margin: 5px; 
+                border-left: 5px;
+            }
+        }
+    }
+}
+.main{
+    @include sizes(320px, 100%, auto);
+    max-height: 600px;
+
+    .empresa{
+        @include sizes(320px, 100%, 20px);
+        background-color: $color5;
+        font-family: $font1;
+        p{
+            color: $color2;
+            text-align: center;
+        }
+    }
+    .rowmain{
+        @include sizes(320px, 100%, auto);
+        max-height: 600px;
+    
+        .carousel-inner img{
+            max-height: 320px;
+            min-width: 320px;
+            width: 100%;
+            text-align: center;
+        }
+    }   
+}
+aside{
+    @include sizes(300px, 100%, auto);
+    font-family: $font1;
+    text-align: justify;
+    background-color: $color2;
+    margin-top: 10px;
+    p{
+        padding: 10px;
+    }
+}
+.caja{
+    min-height: 700px;
+    height: auto;
+    min-width: 320px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+    grid-row-gap: 50px;
+    grid-column-gap: 10px;
+    justify-content: space-evenly;
+    padding: 5px;
+    padding-bottom: 100px;
+
+    a{
+        text-decoration: none;
+        font-family: $font1;
+        font-weight: bold;
+        text-transform: uppercase;  
+        display: grid;  
+        text-align: center;
+        min-width: 100px;
+        font-size: 20px;
+        color: $color5;
+    }
+    :hover{
+        color: $color1;
+    }
+    img{
+        @include sizes(120px, 100%, 100%);
+        min-height: 120px;
+        margin-top: 10px;
+        margin-bottom: 30px;
+        margin-left: 5px;
+    }
+}
+.tabladetalles{
+    @extend .main;
+    font-family: $font1;
+    @include sizes(320px,100% ,auto );
+    h2{
+        text-transform: uppercase;
+        font-size: 40px;
+    }
+    h3{
+        text-transform:capitalize;
+        font-size: 25px;
+    }
+    .table{
+        @include sizes(320px,100%,auto);
+        margin-right: 10px;
+        th{
+            text-transform: uppercase;
+        }
+        .zona{
+            text-transform:capitalize;
+        }
+    }
+}
+.tituloswim{
+    font-family: $font1;
+    text-transform: uppercase;
+    margin: 10px;
+}
+.galeriasw{
+    @include sizes (320px, 100%, auto);
+    font-family: $font1;
+    text-transform: uppercase;
+
+    .fotoprodu{
+        align-items: center;
+        margin-left: 10px;
+        margin-right: 10px;
+        row-gap: 20px;
+        column-gap: 10px;
+    }
+}
+.mainregistrarse{
+    @include sizes (320px, 100%, auto);
+    font-family: $font1;
+    margin: 10px;
+    h2{
+        font-size: 30px;
+        text-transform: uppercase;
+    }
+    h3{
+        font-size: 25px;
+    }
+}
+.comunidad{
+    @include sizes(320px, 100%, auto);
+    font-family: $font1;
+    background: linear-gradient(180deg, $color1 , $color6);
+    form{
+        padding: 50px;
+        font-size: 20px;
+        text-transform: capitalize;
+
+        .form-check{
+            display: grid;
+            grid-template-rows: repeat(25px);
+            p{
+                transform: translate(-40px,0);
+            }
+        }
+        .minus{
+            text-transform: none;
+        }
+        .newslet{
+            display: grid;
+            grid-template-columns: 50px, 50px;
+        }
+        button{
+            margin-top: 10px;
+        }
+    }
+}
+.ingresar{
+    @include sizes(320px, 100%, auto);
+    font-family: $font1;
+    background: linear-gradient(180deg, $color1 , $color6);
+    padding: 5px;
+    .bienve{
+        font-size: 40px;
+        text-transform: uppercase;
+        padding: 5px;
+    }
+    form{
+        margin: 50px;
+        font-size: 20px;
+        text-transform: capitalize;
+    }
+}
+footer{
+    @include sizes(320px, 100%, auto);
+    background-color: $color4;
+    display: inline-block;
+    font-family: $font1;
+
+    .redes{
+        size: 60px;
+        margin-top: 10px;
+        font-family: $font1;
+        color: $color5;
+        background-color: $color4;
+        padding-left: 15px;
+
+        a{
+            text-decoration: none;
+            color: $color5;
+            display: flex;
+            flex-direction: row;
+            justify-content: left;
+            margin: 5px;
+            size: 100px;
+            background-color: $color4;
+        }
+
+        i{
+            size: 80px;
+            margin-top: 5px;
+            background-color: $color4;
+        }
+
+        p{
+            margin:0;
+            font-size:  15px;
+            margin-left: 10px;
+            background-color: $color4;
+        }
+    }
+    .copy{
+        text-align: left;
+        color: $color5;
+        font-family: $font1;
+        font-size: small;
+        margin-left: 20px;
+        background-color: $color4;
+    }
+}
+.subir{
+    height: 40px;
+    width: 40px;
+    background-color:$color3;
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 25px;
+    border-radius: 50%;
+    box-shadow: 0 0 10px $color1;
+
+    i{
+        color: $color5;
+        background-color: $color3;
+    }
+}
