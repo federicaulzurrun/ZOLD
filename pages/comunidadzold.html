@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="../css/estilos.css">
 </head>
 <body>
-    <div>
+    <div class="conteiner">
         <header class="rowFlex conteiner-fluid">
             <div class="nav-1">
                 <ul>
@@ -71,14 +71,20 @@
                     <label class="minus" for="comment">¿Que tipo de productos te gustaria que haya?</label>
                     <textarea class="form-control" rows="5" id="comment"></textarea>
                 </div>
-                <label class="minus newslet">¿Quieres subscribirse al newsletter?</label>
-                    <div>si
-                    <input type="radio" name="opcion" value="si" />
-                    </div>
-                    <div>no
-                    <input type="radio" name="opcion" value="no" />
-                    </div>
-                <button type="submit" class="btn btn-dark">Submit</button>
+                <div class="titnews">
+                    <p>¿Quieres subscribirse al newsletter?</p>
+                    <div class="form-check-inline">
+                        <label class="form-check-label">
+                            <input type="radio" class="form-check-input" name="optradio"> si
+                        </label>
+                        </div>
+                        <div class="form-check-inline">
+                        <label class="form-check-label">
+                            <input type="radio" class="form-check-input" name="optradio"> no
+                        </label>
+                        </div>
+                </div>    
+                <button type="submit" class="btn">enviar</button>
             </form>
         </section>
         <footer>
