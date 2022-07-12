@@ -50,7 +50,6 @@ header{
             }
         }
     }
-
     .logo{
         height: 80px;
         color:$color5;
@@ -69,12 +68,11 @@ header{
         :hover{
             color: $color1}    
     }
-
     .nav-2{
         height:auto;
         width: 100%;
         border: none;
-        padding-right: 20px;
+        padding-left: 30px;
         text-align: center;
         display: inline-block;
         font-family: $font1 ;  
@@ -386,5 +384,753 @@ footer{
     i{
         color: $color5;
         background-color: $color3;
+    }
+}
+@media only screen and (min-width: 500px){
+    .conteiner{
+        @include sizes(500px, 100%, auto);
+    }
+    header{
+        @include sizes(320px, 100%, 145px);
+        
+        .envios{
+            @include sizes(320px, 100%, 20px);
+
+            p{
+                font-size: 15px;
+            }
+        }
+        .nav-1{
+            @include sizes(400px ,100% , 30px);
+
+            li{
+                a{ 
+                    font-size: 16px;
+                    margin: 10px; 
+                    border-left: 5px;
+                }
+            }
+        }
+        .logo{
+            font-size: 55px;
+        }
+        .nav-2{
+            @include sizes(500px, 100%, auto);
+
+            li{
+                a{
+                    font-size: 17px;
+                }
+            }
+        }
+    }
+    aside{
+        @include sizes(500px, 100%, auto);
+        
+        h2{
+            font-size: 30px;
+            padding-left: 10px;
+        }
+        p{
+            padding: 10px;
+        }
+    }
+    .productospag{
+        grid-template-columns: 35% 65%;
+
+        .asideproductos{
+            @include sizes(80px, 100%, auto);
+            li{
+                a{
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+}
+@media only screen and (min-width: 600px) {
+    .conteiner{
+        @include sizes(600px, 100%, auto);
+    }
+    header{
+        @include sizes(600px, 100%, 145px);
+        
+        .envios{
+            @include sizes(320px, 100%, 20px);
+
+            p{
+                font-size: 15px;
+            }
+        }
+        .nav-1{
+            @include sizes(400px ,100% , 30px);
+            li{
+                a{ 
+                    font-size: 16px;
+                    margin: 10px; 
+                    border-left: 5px;
+                }
+            }
+        }
+        .logo{
+            font-size: 55px;
+        }
+        .nav-2{
+            @include sizes(500px, 100%, auto);
+
+            li{
+                a{
+                    font-size: 17px;
+                }
+            }
+        }
+    }
+    aside{
+        @include sizes(500px, 100%, auto);
+        
+        h2{
+            font-size: 30px;
+            padding-left: 10px;
+        }
+        p{
+            padding: 10px;
+        }
+    }
+    .productospag{
+        grid-template-columns: 35% 65%;
+
+        .asideproductos{
+            @include sizes(80px, 100%, auto);
+            section{
+            h2{
+                font-size: 25px;
+                }
+            }
+            li{
+                a{
+                    font-size: 16px;
+                }
+            }
+        }
+        .galeriasw{
+            .card{
+                font-size: 20px;
+                .card-body{
+                    .card-title{
+                        font-size:30px;
+                    }
+                }
+            }
+        }
+    }
+    .mainregistrarse{
+        @include sizes (600px, 100%, auto);
+        h2{
+            font-size: 30px;
+            text-transform: uppercase;
+        }
+        h3{
+            font-size: 25px;
+        }
+    }
+    .comunidad{
+        padding-left: 55px;
+        padding-right: 55px;
+    }
+}
+@media only screen and (min-width: 740px) {
+    .conteiner{
+        @include sizes(740px, 100%, auto);
+    }
+    header{
+        @include sizes(740px, 100%, 155px);
+        
+        .envios{
+            @include sizes(740px, 100%, 20px);
+
+            p{
+                font-size: 15px;
+                word-spacing: 2px;
+            }
+        }
+        .nav-1{
+            @include sizes(740px ,100% , 30px);
+            li{
+                a{ 
+                    font-size: 22px;
+                    margin: 10px; 
+                    border-left: 5px;
+                }
+            }
+        }
+        .logo{
+            font-size: 65px;
+        }
+        .nav-2{
+            @include sizes(740px, 100%, auto);
+            li{
+                a{
+                    font-size: 23px;
+                }
+            }
+        }
+    }
+    aside{
+        @include sizes(740px, 100%, auto);
+        
+        h2{
+            font-size: 40px;
+            padding-left: 10px;
+        }
+        p{
+            padding: 10px;
+            font-size: 18px;
+        }
+    }
+    .caja{
+        a{
+            font-size: 25px;
+        }
+    }
+    .productospag{
+        grid-template-columns: 30% 70%;
+
+        .asideproductos{
+            @include sizes(180px, 100%, auto);
+            section{
+            h2{
+                font-size: 30px;
+                }
+            }
+            li{
+                a{
+                    font-size: 25px;
+                }
+            }
+            span{
+                size:10px;
+                font-size: 15px;
+
+            }
+        }
+        .cuerpoprod{
+            @include sizes(500px, 100%, auto);
+            .tituloswim{
+                font-size: 35px;
+            }
+            .galeriasw{
+                display:grid;
+                grid-template-columns: 50% 50%;
+                column-gap: 20px;
+                .card{
+                    font-size: 20px;
+                    width: 250px;
+                    .card-body{
+                        .card-title{
+                            font-size:30px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .mainregistrarse{
+        @include sizes (600px, 100%, auto);
+        h2{
+            font-size: 30px;
+            text-transform: uppercase;
+        }
+        h3{
+            font-size: 25px;
+        }
+    }
+    .comunidad{
+        padding-left: 55px;
+        padding-right: 55px;
+    }
+    .tabladetalles{
+        @include sizes(740px,100% ,auto );
+        font-family: $font1;
+        padding: 5px;
+    
+        .tablatalles{
+            padding: 5px;
+    
+            h2{
+                text-transform: uppercase;
+                font-size: 30px;
+            }
+            h3{
+                text-transform:capitalize;
+                font-size: 25px;
+            }
+            .table{
+                @include sizes(290px,100%,auto);
+                margin-right: 10px;
+                th{
+                    text-transform: uppercase;
+                    font-size: 20px;
+                }
+                td{
+                    font-size: 15px;
+                }
+                .zona{
+                    text-transform:capitalize;
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+    footer{
+    @include sizes(740px, 100%, auto);
+    background-color: $color4;
+    display: inline-block;
+    font-family: $font1;
+
+        .redes{
+            size: 80px;
+            margin-top: 10px;
+            font-family: $font1;
+            color: $color5;
+            background-color: $color4;
+            padding-left: 15px;
+
+            i{
+                size: 100px;
+                margin-top: 5px;
+                background-color: $color4;
+            }
+
+            p{
+                margin:0;
+                font-size:  20px;
+                margin-left: 10px;
+                background-color: $color4;
+            }
+        }
+        .copy{
+            text-align: left;
+            color: $color5;
+            font-family: $font1;
+            font-size: medium;
+            margin-left: 20px;
+            background-color: $color4;
+        }
+    }
+}
+@media only screen and (min-width: 900px) {
+    .conteiner{
+        @include sizes(740px, 100%, auto);
+    }
+    header{
+        @include sizes(740px, 100%, 155px);
+        
+        .envios{
+            @include sizes(740px, 100%, 20px);
+
+            p{
+                font-size: 15px;
+                word-spacing: 2px;
+            }
+        }
+        .nav-1{
+            @include sizes(900px ,100% , 30px);
+            li{
+                a{ 
+                    font-size: 22px;
+                    margin: 10px; 
+                    border-left: 5px;
+                }
+            }
+        }
+        .logo{
+            font-size: 65px;
+        }
+        .nav-2{
+            @include sizes(900px, 100%, auto);
+            li{
+                a{
+                    font-size: 23px;
+                }
+            }
+        }
+    }
+    aside{
+        @include sizes(740px, 100%, auto);
+        
+        h2{
+            font-size: 40px;
+            padding-left: 10px;
+        }
+        p{
+            padding: 10px;
+            font-size: 18px;
+        }
+    }
+    .caja{
+        a{
+            font-size: 25px;
+        }
+    }
+    .productospag{
+        grid-template-columns: 30% 70%;
+
+        .asideproductos{
+            @include sizes(180px, 100%, auto);
+            section{
+            h2{
+                font-size: 30px;
+                }
+            }
+            li{
+                a{
+                    font-size: 25px;
+                }
+            }
+            span{
+                size:10px;
+                font-size: 15px;
+
+            }
+        }
+        .cuerpoprod{
+            @include sizes(600px, 100%, auto);
+            .tituloswim{
+                font-size: 35px;
+            }
+            .galeriasw{
+                display:grid;
+                grid-template-columns: 50% 50%;
+                column-gap: 20px;
+                .card{
+                    font-size: 20px;
+                    min-width: 300px;
+                    width: 100%;
+                    .card-body{
+                        .card-title{
+                            font-size:30px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .mainregistrarse{
+        @include sizes (600px, 100%, auto);
+        h2{
+            font-size: 30px;
+            text-transform: uppercase;
+        }
+        h3{
+            font-size: 25px;
+        }
+    }
+    .comunidad{
+        padding-left: 55px;
+        padding-right: 55px;
+    }
+    .tabladetalles{
+        @include sizes(900px,100% ,auto );
+        font-family: $font1;
+        padding: 10px;
+    
+        .tablatalles{
+            padding: 25px;
+    
+            h2{
+                text-transform: uppercase;
+                font-size: 30px;
+            }
+            h3{
+                text-transform:capitalize;
+                font-size: 25px;
+            }
+            .table{
+                @include sizes(290px,100%,auto);
+                margin-right: 10px;
+                th{
+                    text-transform: uppercase;
+                    font-size: 20px;
+                }
+                td{
+                    font-size: 15px;
+                }
+                .zona{
+                    text-transform:capitalize;
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+    footer{
+    @include sizes(740px, 100%, auto);
+    background-color: $color4;
+    display: inline-block;
+    font-family: $font1;
+
+        .redes{
+            size: 80px;
+            margin-top: 10px;
+            font-family: $font1;
+            color: $color5;
+            background-color: $color4;
+            padding-left: 15px;
+
+            i{
+                size: 100px;
+                margin-top: 5px;
+                background-color: $color4;
+            }
+
+            p{
+                margin:0;
+                font-size:  20px;
+                margin-left: 10px;
+                background-color: $color4;
+            }
+        }
+        .copy{
+            text-align: left;
+            color: $color5;
+            font-family: $font1;
+            font-size: medium;
+            margin-left: 20px;
+            background-color: $color4;
+        }
+    }
+}
+@media only screen and (min-width: 900px) {
+    .conteiner{
+        @include sizes(740px, 100%, auto);
+    }
+    header{
+        @include sizes(740px, 100%, 155px);
+        
+        .envios{
+            @include sizes(740px, 100%, 20px);
+
+            p{
+                font-size: 15px;
+                word-spacing: 2px;
+            }
+        }
+        .nav-1{
+            @include sizes(900px ,100% , 30px);
+            li{
+                a{ 
+                    font-size: 22px;
+                    margin: 10px; 
+                    border-left: 5px;
+                }
+            }
+        }
+        .logo{
+            font-size: 65px;
+        }
+        .nav-2{
+            @include sizes(900px, 100%, auto);
+            li{
+                a{
+                    font-size: 23px;
+                }
+            }
+        }
+    }
+    .main{
+        @include sizes(900px, 100%, auto);
+        max-height: 600px;
+    
+        .rowmain{
+            @include sizes(900px, 100%, auto);
+            max-height: 600px;
+            padding-left: 70px;
+            padding-right: 70px;
+        
+            .carousel-inner img{
+                max-height: 320px;
+                min-width: 320px;
+                width: 100%;
+                text-align: center;
+            }
+        }   
+    }
+    aside{
+        @include sizes(740px, 100%, auto);
+        
+        h2{
+            font-size: 40px;
+            padding-left: 10px;
+        }
+        p{
+            padding: 10px;
+            font-size: 18px;
+        }
+    }
+    .caja{
+        a{
+            font-size: 25px;
+        }
+    }
+    .productospag{
+        grid-template-columns: 30% 70%;
+
+        .asideproductos{
+            @include sizes(180px, 100%, auto);
+            section{
+            h2{
+                font-size: 30px;
+                }
+            }
+            li{
+                a{
+                    font-size: 25px;
+                }
+            }
+            span{
+                size:10px;
+                font-size: 15px;
+            }
+        }
+        .cuerpoprod{
+            @include sizes(780px, 100%, auto);
+            .tituloswim{
+                font-size: 35px;
+            }
+            .galeriasw{
+                display:grid;
+                grid-template-columns: 30% 30% 30%;
+                column-gap: 25px;
+                .card{
+                    font-size: 20px;
+                    min-width: 220px;
+                    width: 100%;
+                    .card-body{
+                        .card-title{
+                            font-size:30px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .mainregistrarse{
+        @include sizes (600px, 100%, auto);
+        h2{
+            font-size: 30px;
+            text-transform: uppercase;
+        }
+        h3{
+            font-size: 25px;
+        }
+    }
+    .comunidad{
+        padding-left: 55px;
+        padding-right: 55px;
+    }
+    .tabladetalles{
+        @include sizes(900px,100% ,auto );
+        font-family: $font1;
+        padding: 10px;
+    
+        .tablatalles{
+            padding: 25px;
+    
+            h2{
+                text-transform: uppercase;
+                font-size: 30px;
+            }
+            h3{
+                text-transform:capitalize;
+                font-size: 25px;
+            }
+            .table{
+                @include sizes(290px,100%,auto);
+                margin-right: 10px;
+                th{
+                    text-transform: uppercase;
+                    font-size: 20px;
+                }
+                td{
+                    font-size: 15px;
+                }
+                .zona{
+                    text-transform:capitalize;
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+    footer{
+    @include sizes(740px, 100%, auto);
+    background-color: $color4;
+    display: inline-block;
+    font-family: $font1;
+
+        .redes{
+            size: 80px;
+            margin-top: 10px;
+            font-family: $font1;
+            color: $color5;
+            background-color: $color4;
+            padding-left: 15px;
+
+            i{
+                size: 100px;
+                margin-top: 5px;
+                background-color: $color4;
+            }
+
+            p{
+                margin:0;
+                font-size:  20px;
+                margin-left: 10px;
+                background-color: $color4;
+            }
+        }
+        .copy{
+            text-align: left;
+            color: $color5;
+            font-family: $font1;
+            font-size: medium;
+            margin-left: 20px;
+            background-color: $color4;
+        }
+    }
+}
+@media only screen and (min-width: 1100px){ 
+.main{
+    @include sizes(900px, 100%, auto);
+    max-height: 600px;
+
+    .rowmain{
+        @include sizes(900px, 100%, auto);
+        max-height: 600px;
+        padding-left: 140px;
+        padding-right: 140px;
+        }   
+    }
+    aside{
+        @include sizes(900px, 100%, auto);
+        
+        h2{
+            font-size: 40px;
+            padding-left: 10px;
+            padding-left: 25px;
+            padding-right: 25px;
+        }
+        p{
+            padding: 10px;
+            font-size: 18px;
+            padding-left: 45px;
+            padding-right: 55px;
+        }
+    }
+    .caja{
+        height: 1000px;
+        width: 1250px;
+        padding-left: 115px;
+        a{
+            font-size: 25px;
+        }
     }
 }

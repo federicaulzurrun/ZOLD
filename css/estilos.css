@@ -89,7 +89,7 @@ header .nav-2 {
   height: auto;
   width: 100%;
   border: none;
-  padding-right: 20px;
+  padding-left: 30px;
   text-align: center;
   display: inline-block;
   font-family: "Nunito Sans", sans-serif;
@@ -424,4 +424,770 @@ footer .copy {
 .subir i {
   color: #000;
   background-color: #9ed2e4;
+}
+
+@media only screen and (min-width: 500px) {
+  .conteiner {
+    min-width: 500px;
+    width: 100%;
+    height: auto;
+  }
+  header {
+    min-width: 320px;
+    width: 100%;
+    height: 145px;
+  }
+  header .envios {
+    min-width: 320px;
+    width: 100%;
+    height: 20px;
+  }
+  header .envios p {
+    font-size: 15px;
+  }
+  header .nav-1 {
+    min-width: 400px;
+    width: 100%;
+    height: 30px;
+  }
+  header .nav-1 li a {
+    font-size: 16px;
+    margin: 10px;
+    border-left: 5px;
+  }
+  header .logo {
+    font-size: 55px;
+  }
+  header .nav-2 {
+    min-width: 500px;
+    width: 100%;
+    height: auto;
+  }
+  header .nav-2 li a {
+    font-size: 17px;
+  }
+  aside {
+    min-width: 500px;
+    width: 100%;
+    height: auto;
+  }
+  aside h2 {
+    font-size: 30px;
+    padding-left: 10px;
+  }
+  aside p {
+    padding: 10px;
+  }
+  .productospag {
+    grid-template-columns: 35% 65%;
+  }
+  .productospag .asideproductos {
+    min-width: 80px;
+    width: 100%;
+    height: auto;
+  }
+  .productospag .asideproductos li a {
+    font-size: 16px;
+  }
+}
+@media only screen and (min-width: 600px) {
+  .conteiner {
+    min-width: 600px;
+    width: 100%;
+    height: auto;
+  }
+  header {
+    min-width: 600px;
+    width: 100%;
+    height: 145px;
+  }
+  header .envios {
+    min-width: 320px;
+    width: 100%;
+    height: 20px;
+  }
+  header .envios p {
+    font-size: 15px;
+  }
+  header .nav-1 {
+    min-width: 400px;
+    width: 100%;
+    height: 30px;
+  }
+  header .nav-1 li a {
+    font-size: 16px;
+    margin: 10px;
+    border-left: 5px;
+  }
+  header .logo {
+    font-size: 55px;
+  }
+  header .nav-2 {
+    min-width: 500px;
+    width: 100%;
+    height: auto;
+  }
+  header .nav-2 li a {
+    font-size: 17px;
+  }
+  aside {
+    min-width: 500px;
+    width: 100%;
+    height: auto;
+  }
+  aside h2 {
+    font-size: 30px;
+    padding-left: 10px;
+  }
+  aside p {
+    padding: 10px;
+  }
+  .productospag {
+    grid-template-columns: 35% 65%;
+  }
+  .productospag .asideproductos {
+    min-width: 80px;
+    width: 100%;
+    height: auto;
+  }
+  .productospag .asideproductos section h2 {
+    font-size: 25px;
+  }
+  .productospag .asideproductos li a {
+    font-size: 16px;
+  }
+  .productospag .galeriasw .card {
+    font-size: 20px;
+  }
+  .productospag .galeriasw .card .card-body .card-title {
+    font-size: 30px;
+  }
+  .mainregistrarse {
+    min-width: 600px;
+    width: 100%;
+    height: auto;
+  }
+  .mainregistrarse h2 {
+    font-size: 30px;
+    text-transform: uppercase;
+  }
+  .mainregistrarse h3 {
+    font-size: 25px;
+  }
+  .comunidad {
+    padding-left: 55px;
+    padding-right: 55px;
+  }
+}
+@media only screen and (min-width: 740px) {
+  .conteiner {
+    min-width: 740px;
+    width: 100%;
+    height: auto;
+  }
+  header {
+    min-width: 740px;
+    width: 100%;
+    height: 155px;
+  }
+  header .envios {
+    min-width: 740px;
+    width: 100%;
+    height: 20px;
+  }
+  header .envios p {
+    font-size: 15px;
+    word-spacing: 2px;
+  }
+  header .nav-1 {
+    min-width: 740px;
+    width: 100%;
+    height: 30px;
+  }
+  header .nav-1 li a {
+    font-size: 22px;
+    margin: 10px;
+    border-left: 5px;
+  }
+  header .logo {
+    font-size: 65px;
+  }
+  header .nav-2 {
+    min-width: 740px;
+    width: 100%;
+    height: auto;
+  }
+  header .nav-2 li a {
+    font-size: 23px;
+  }
+  aside {
+    min-width: 740px;
+    width: 100%;
+    height: auto;
+  }
+  aside h2 {
+    font-size: 40px;
+    padding-left: 10px;
+  }
+  aside p {
+    padding: 10px;
+    font-size: 18px;
+  }
+  .caja a {
+    font-size: 25px;
+  }
+  .productospag {
+    grid-template-columns: 30% 70%;
+  }
+  .productospag .asideproductos {
+    min-width: 180px;
+    width: 100%;
+    height: auto;
+  }
+  .productospag .asideproductos section h2 {
+    font-size: 30px;
+  }
+  .productospag .asideproductos li a {
+    font-size: 25px;
+  }
+  .productospag .asideproductos span {
+    size: 10px;
+    font-size: 15px;
+  }
+  .productospag .cuerpoprod {
+    min-width: 500px;
+    width: 100%;
+    height: auto;
+  }
+  .productospag .cuerpoprod .tituloswim {
+    font-size: 35px;
+  }
+  .productospag .cuerpoprod .galeriasw {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    -moz-column-gap: 20px;
+         column-gap: 20px;
+  }
+  .productospag .cuerpoprod .galeriasw .card {
+    font-size: 20px;
+    width: 250px;
+  }
+  .productospag .cuerpoprod .galeriasw .card .card-body .card-title {
+    font-size: 30px;
+  }
+  .mainregistrarse {
+    min-width: 600px;
+    width: 100%;
+    height: auto;
+  }
+  .mainregistrarse h2 {
+    font-size: 30px;
+    text-transform: uppercase;
+  }
+  .mainregistrarse h3 {
+    font-size: 25px;
+  }
+  .comunidad {
+    padding-left: 55px;
+    padding-right: 55px;
+  }
+  .tabladetalles {
+    min-width: 740px;
+    width: 100%;
+    height: auto;
+    font-family: "Nunito Sans", sans-serif;
+    padding: 5px;
+  }
+  .tabladetalles .tablatalles {
+    padding: 5px;
+  }
+  .tabladetalles .tablatalles h2 {
+    text-transform: uppercase;
+    font-size: 30px;
+  }
+  .tabladetalles .tablatalles h3 {
+    text-transform: capitalize;
+    font-size: 25px;
+  }
+  .tabladetalles .tablatalles .table {
+    min-width: 290px;
+    width: 100%;
+    height: auto;
+    margin-right: 10px;
+  }
+  .tabladetalles .tablatalles .table th {
+    text-transform: uppercase;
+    font-size: 20px;
+  }
+  .tabladetalles .tablatalles .table td {
+    font-size: 15px;
+  }
+  .tabladetalles .tablatalles .table .zona {
+    text-transform: capitalize;
+    font-size: 20px;
+  }
+  footer {
+    min-width: 740px;
+    width: 100%;
+    height: auto;
+    background-color: #c4e9e4;
+    display: inline-block;
+    font-family: "Nunito Sans", sans-serif;
+  }
+  footer .redes {
+    size: 80px;
+    margin-top: 10px;
+    font-family: "Nunito Sans", sans-serif;
+    color: #000;
+    background-color: #c4e9e4;
+    padding-left: 15px;
+  }
+  footer .redes i {
+    size: 100px;
+    margin-top: 5px;
+    background-color: #c4e9e4;
+  }
+  footer .redes p {
+    margin: 0;
+    font-size: 20px;
+    margin-left: 10px;
+    background-color: #c4e9e4;
+  }
+  footer .copy {
+    text-align: left;
+    color: #000;
+    font-family: "Nunito Sans", sans-serif;
+    font-size: medium;
+    margin-left: 20px;
+    background-color: #c4e9e4;
+  }
+}
+@media only screen and (min-width: 900px) {
+  .conteiner {
+    min-width: 740px;
+    width: 100%;
+    height: auto;
+  }
+  header {
+    min-width: 740px;
+    width: 100%;
+    height: 155px;
+  }
+  header .envios {
+    min-width: 740px;
+    width: 100%;
+    height: 20px;
+  }
+  header .envios p {
+    font-size: 15px;
+    word-spacing: 2px;
+  }
+  header .nav-1 {
+    min-width: 900px;
+    width: 100%;
+    height: 30px;
+  }
+  header .nav-1 li a {
+    font-size: 22px;
+    margin: 10px;
+    border-left: 5px;
+  }
+  header .logo {
+    font-size: 65px;
+  }
+  header .nav-2 {
+    min-width: 900px;
+    width: 100%;
+    height: auto;
+  }
+  header .nav-2 li a {
+    font-size: 23px;
+  }
+  aside {
+    min-width: 740px;
+    width: 100%;
+    height: auto;
+  }
+  aside h2 {
+    font-size: 40px;
+    padding-left: 10px;
+  }
+  aside p {
+    padding: 10px;
+    font-size: 18px;
+  }
+  .caja a {
+    font-size: 25px;
+  }
+  .productospag {
+    grid-template-columns: 30% 70%;
+  }
+  .productospag .asideproductos {
+    min-width: 180px;
+    width: 100%;
+    height: auto;
+  }
+  .productospag .asideproductos section h2 {
+    font-size: 30px;
+  }
+  .productospag .asideproductos li a {
+    font-size: 25px;
+  }
+  .productospag .asideproductos span {
+    size: 10px;
+    font-size: 15px;
+  }
+  .productospag .cuerpoprod {
+    min-width: 600px;
+    width: 100%;
+    height: auto;
+  }
+  .productospag .cuerpoprod .tituloswim {
+    font-size: 35px;
+  }
+  .productospag .cuerpoprod .galeriasw {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    -moz-column-gap: 20px;
+         column-gap: 20px;
+  }
+  .productospag .cuerpoprod .galeriasw .card {
+    font-size: 20px;
+    min-width: 300px;
+    width: 100%;
+  }
+  .productospag .cuerpoprod .galeriasw .card .card-body .card-title {
+    font-size: 30px;
+  }
+  .mainregistrarse {
+    min-width: 600px;
+    width: 100%;
+    height: auto;
+  }
+  .mainregistrarse h2 {
+    font-size: 30px;
+    text-transform: uppercase;
+  }
+  .mainregistrarse h3 {
+    font-size: 25px;
+  }
+  .comunidad {
+    padding-left: 55px;
+    padding-right: 55px;
+  }
+  .tabladetalles {
+    min-width: 900px;
+    width: 100%;
+    height: auto;
+    font-family: "Nunito Sans", sans-serif;
+    padding: 10px;
+  }
+  .tabladetalles .tablatalles {
+    padding: 25px;
+  }
+  .tabladetalles .tablatalles h2 {
+    text-transform: uppercase;
+    font-size: 30px;
+  }
+  .tabladetalles .tablatalles h3 {
+    text-transform: capitalize;
+    font-size: 25px;
+  }
+  .tabladetalles .tablatalles .table {
+    min-width: 290px;
+    width: 100%;
+    height: auto;
+    margin-right: 10px;
+  }
+  .tabladetalles .tablatalles .table th {
+    text-transform: uppercase;
+    font-size: 20px;
+  }
+  .tabladetalles .tablatalles .table td {
+    font-size: 15px;
+  }
+  .tabladetalles .tablatalles .table .zona {
+    text-transform: capitalize;
+    font-size: 20px;
+  }
+  footer {
+    min-width: 740px;
+    width: 100%;
+    height: auto;
+    background-color: #c4e9e4;
+    display: inline-block;
+    font-family: "Nunito Sans", sans-serif;
+  }
+  footer .redes {
+    size: 80px;
+    margin-top: 10px;
+    font-family: "Nunito Sans", sans-serif;
+    color: #000;
+    background-color: #c4e9e4;
+    padding-left: 15px;
+  }
+  footer .redes i {
+    size: 100px;
+    margin-top: 5px;
+    background-color: #c4e9e4;
+  }
+  footer .redes p {
+    margin: 0;
+    font-size: 20px;
+    margin-left: 10px;
+    background-color: #c4e9e4;
+  }
+  footer .copy {
+    text-align: left;
+    color: #000;
+    font-family: "Nunito Sans", sans-serif;
+    font-size: medium;
+    margin-left: 20px;
+    background-color: #c4e9e4;
+  }
+}
+@media only screen and (min-width: 900px) {
+  .conteiner {
+    min-width: 740px;
+    width: 100%;
+    height: auto;
+  }
+  header {
+    min-width: 740px;
+    width: 100%;
+    height: 155px;
+  }
+  header .envios {
+    min-width: 740px;
+    width: 100%;
+    height: 20px;
+  }
+  header .envios p {
+    font-size: 15px;
+    word-spacing: 2px;
+  }
+  header .nav-1 {
+    min-width: 900px;
+    width: 100%;
+    height: 30px;
+  }
+  header .nav-1 li a {
+    font-size: 22px;
+    margin: 10px;
+    border-left: 5px;
+  }
+  header .logo {
+    font-size: 65px;
+  }
+  header .nav-2 {
+    min-width: 900px;
+    width: 100%;
+    height: auto;
+  }
+  header .nav-2 li a {
+    font-size: 23px;
+  }
+  .main {
+    min-width: 900px;
+    width: 100%;
+    height: auto;
+    max-height: 600px;
+  }
+  .main .rowmain {
+    min-width: 900px;
+    width: 100%;
+    height: auto;
+    max-height: 600px;
+    padding-left: 70px;
+    padding-right: 70px;
+  }
+  .main .rowmain .carousel-inner img {
+    max-height: 320px;
+    min-width: 320px;
+    width: 100%;
+    text-align: center;
+  }
+  aside {
+    min-width: 740px;
+    width: 100%;
+    height: auto;
+  }
+  aside h2 {
+    font-size: 40px;
+    padding-left: 10px;
+  }
+  aside p {
+    padding: 10px;
+    font-size: 18px;
+  }
+  .caja a {
+    font-size: 25px;
+  }
+  .productospag {
+    grid-template-columns: 30% 70%;
+  }
+  .productospag .asideproductos {
+    min-width: 180px;
+    width: 100%;
+    height: auto;
+  }
+  .productospag .asideproductos section h2 {
+    font-size: 30px;
+  }
+  .productospag .asideproductos li a {
+    font-size: 25px;
+  }
+  .productospag .asideproductos span {
+    size: 10px;
+    font-size: 15px;
+  }
+  .productospag .cuerpoprod {
+    min-width: 780px;
+    width: 100%;
+    height: auto;
+  }
+  .productospag .cuerpoprod .tituloswim {
+    font-size: 35px;
+  }
+  .productospag .cuerpoprod .galeriasw {
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    -moz-column-gap: 25px;
+         column-gap: 25px;
+  }
+  .productospag .cuerpoprod .galeriasw .card {
+    font-size: 20px;
+    min-width: 220px;
+    width: 100%;
+  }
+  .productospag .cuerpoprod .galeriasw .card .card-body .card-title {
+    font-size: 30px;
+  }
+  .mainregistrarse {
+    min-width: 600px;
+    width: 100%;
+    height: auto;
+  }
+  .mainregistrarse h2 {
+    font-size: 30px;
+    text-transform: uppercase;
+  }
+  .mainregistrarse h3 {
+    font-size: 25px;
+  }
+  .comunidad {
+    padding-left: 55px;
+    padding-right: 55px;
+  }
+  .tabladetalles {
+    min-width: 900px;
+    width: 100%;
+    height: auto;
+    font-family: "Nunito Sans", sans-serif;
+    padding: 10px;
+  }
+  .tabladetalles .tablatalles {
+    padding: 25px;
+  }
+  .tabladetalles .tablatalles h2 {
+    text-transform: uppercase;
+    font-size: 30px;
+  }
+  .tabladetalles .tablatalles h3 {
+    text-transform: capitalize;
+    font-size: 25px;
+  }
+  .tabladetalles .tablatalles .table {
+    min-width: 290px;
+    width: 100%;
+    height: auto;
+    margin-right: 10px;
+  }
+  .tabladetalles .tablatalles .table th {
+    text-transform: uppercase;
+    font-size: 20px;
+  }
+  .tabladetalles .tablatalles .table td {
+    font-size: 15px;
+  }
+  .tabladetalles .tablatalles .table .zona {
+    text-transform: capitalize;
+    font-size: 20px;
+  }
+  footer {
+    min-width: 740px;
+    width: 100%;
+    height: auto;
+    background-color: #c4e9e4;
+    display: inline-block;
+    font-family: "Nunito Sans", sans-serif;
+  }
+  footer .redes {
+    size: 80px;
+    margin-top: 10px;
+    font-family: "Nunito Sans", sans-serif;
+    color: #000;
+    background-color: #c4e9e4;
+    padding-left: 15px;
+  }
+  footer .redes i {
+    size: 100px;
+    margin-top: 5px;
+    background-color: #c4e9e4;
+  }
+  footer .redes p {
+    margin: 0;
+    font-size: 20px;
+    margin-left: 10px;
+    background-color: #c4e9e4;
+  }
+  footer .copy {
+    text-align: left;
+    color: #000;
+    font-family: "Nunito Sans", sans-serif;
+    font-size: medium;
+    margin-left: 20px;
+    background-color: #c4e9e4;
+  }
+}
+@media only screen and (min-width: 1100px) {
+  .main {
+    min-width: 900px;
+    width: 100%;
+    height: auto;
+    max-height: 600px;
+  }
+  .main .rowmain {
+    min-width: 900px;
+    width: 100%;
+    height: auto;
+    max-height: 600px;
+    padding-left: 140px;
+    padding-right: 140px;
+  }
+  aside {
+    min-width: 900px;
+    width: 100%;
+    height: auto;
+  }
+  aside h2 {
+    font-size: 40px;
+    padding-left: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+  aside p {
+    padding: 10px;
+    font-size: 18px;
+    padding-left: 45px;
+    padding-right: 55px;
+  }
+  .caja {
+    height: 1000px;
+    width: 1250px;
+    padding-left: 115px;
+  }
+  .caja a {
+    font-size: 25px;
+  }
 }/*# sourceMappingURL=estilos.css.map */
